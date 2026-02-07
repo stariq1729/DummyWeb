@@ -32,7 +32,7 @@ namespace DummyWeb.UserControls
                 new NavItem { Name = "Study Hub", Href = "#study-hub" },
                 new NavItem { Name = "Test Series", Href = "#tests" },
                 new NavItem { Name = "Career Guidance", Href = "#guidance" },
-                new NavItem { Name = "Blogs", Href = "#blog" }
+                new NavItem { Name = "Blogs", Href = "Blog.aspx" }
             };
 
             NavRepeater.DataSource = navItems;

@@ -81,8 +81,8 @@
             <!-- Right Column: Hero Image/Illustration -->
             <div class="col-lg-6">
                 <div class="position-relative">
-                    <!-- Main Hero Image -->
-<%--                    <div class="card border-0 shadow-lg overflow-hidden">
+               <!-- Main Hero Image -->
+<%--                 <div class="card border-0 shadow-lg overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                              alt="Students Learning Online" 
                              class="img-fluid rounded-3" />
@@ -102,8 +102,8 @@
                         </div>
                     </div>
                     
-                    <!-- Floating Live Class Indicator -->
-<%--                    <div class="position-absolute bottom-0 end-0 translate-middle-y bg-danger text-white rounded-pill px-4 py-2 d-none d-md-block"
+<%--                    <!-- Floating Live Class Indicator -->
+                  <div class="position-absolute bottom-0 end-0 translate-middle-y bg-danger text-white rounded-pill px-4 py-2 d-none d-md-block"
                          style="margin-bottom: -20px;">
                         <div class="d-flex align-items-center">
                             <div class="p-1 me-2">
