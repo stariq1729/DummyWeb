@@ -1,0 +1,48 @@
+﻿/* Custom CSS for EduVantage */
+:root {
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --secondary: #3b82f6;
+    --accent: #10b981;
+}
+
+/* Hero Section */
+.hero-gradient {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+}
+
+/* Card Styles */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+/* Stats Banner */
+.stats-item {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Faculty Cards */
+.faculty-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .marquee-content {
+        animation-duration: 20s;
+    }
+}
