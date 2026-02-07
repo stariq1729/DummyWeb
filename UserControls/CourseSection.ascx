@@ -13,7 +13,14 @@
         <!-- Course Categories -->
         <div class="mb-5">
             <ul class="nav nav-pills justify-content-center flex-wrap" id="courseTab" role="tablist">
+<%--<ul class="nav nav-pills flex-nowrap overflow-auto"
+    id="courseTab"
+    role="tablist"
+    style="white-space: nowrap; padding-bottom: 0.5rem;">--%>
+
+
                 <asp:Repeater ID="rptCategories" runat="server">
+
                     <ItemTemplate>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link <%# Container.ItemIndex == 0 ? "active" : "" %>" 
