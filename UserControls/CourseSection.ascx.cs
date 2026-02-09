@@ -41,7 +41,8 @@ namespace DummyWeb.UserControls
                     Courses = new List<Course>
                     {
                         new Course { Id=1, Title="Math Foundation", Description="Build strong math concepts", Category="Foundation", Price="₹2,999/month", ImageUrl="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=200&fit=crop" },
-                        new Course { Id=2, Title="Science Explorer", Description="Hands-on science learning", Category="Foundation", Price="₹2,999/month", ImageUrl="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=200&fit=crop" }
+                        new Course { Id=2, Title="Science Explorer", Description="Hands-on science learning", Category="Foundation", Price="₹2,999/month", ImageUrl="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=200&fit=crop" },
+                        new Course { Id=3, Title="English Mastery", Description="Improve language skills", Category="Foundation", Price="₹2,999/month", ImageUrl="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=200&fit=crop" }
                     }
                 },
                 new CourseCategory
@@ -49,17 +50,20 @@ namespace DummyWeb.UserControls
                     Name = "Secondary (Class 9-10)",
                     Courses = new List<Course>
                     {
-                        new Course { Id=3, Title="Advanced Math", Description="Board exam prep", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&h=200&fit=crop" },
-                        new Course { Id=4, Title="Physics & Chemistry", Description="Science mastery", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400&h=200&fit=crop" }
+                        new Course { Id=4, Title="Advanced Math", Description="Board exam prep", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&h=200&fit=crop" },
+                        new Course { Id=5, Title="Physics ", Description="Science mastery", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400&h=200&fit=crop" },
+                         new Course { Id=6, Title="Chemistry", Description="Board exam prep", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&h=200&fit=crop" }
                     }
                 },
                 new CourseCategory
                 {
-                    Name = " (Class 11-12)",
+                    Name = "Senior Secondary (Class 11-12)",
                     Courses = new List<Course>
                     {
-                        new Course { Id=5, Title="Science", Description="Board exam prep", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&h=200&fit=crop" },
-                        new Course { Id=6, Title="Physics & Chemistry", Description="Science mastery", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400&h=200&fit=crop" }
+                       
+                        new Course { Id=7, Title="Physics", Description="Science mastery", Category="Secondary", Price="₹3,499/month", ImageUrl="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400&h=200&fit=crop" },
+                        new Course { Id=8, Title="Mathematics", Description="Board exam prep", Category="Senior Secondary", Price="₹3,999/month", ImageUrl="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=400&h=200&fit=crop" },
+                        new Course { Id=9, Title="Chemistry", Description="Science mastery", Category="Senior Secondary", Price="₹3,999/month", ImageUrl="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400&h=200&fit=crop" }
                     }
                 }
             };

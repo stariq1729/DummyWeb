@@ -31,12 +31,12 @@
                 <div class="d-flex flex-wrap gap-3 mb-5">
                     <asp:Button ID="btnFreeDemo" runat="server" 
                                CssClass="btn btn-primary btn-lg px-5 py-3 fw-bold" 
-                               Text="Start Free Trial"
+                               Text="Book Your Enquiry"
                                 />
                     
                     <asp:Button ID="btnWatchDemo" runat="server" 
                                CssClass="btn btn-outline-primary btn-lg px-5 py-3 fw-bold" 
-                               Text="Watch Demo"
+                               Text="Enroll Now"
                                 />
                 </div>
                 

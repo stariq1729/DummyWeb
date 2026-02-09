@@ -23,7 +23,7 @@
             animation: marquee 30s linear infinite;
             padding: 1rem 0;
         }
-        @@keyframes marquee {
+        @keyframes marquee {
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
         }
