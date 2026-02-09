@@ -106,6 +106,8 @@
                                     <asp:DropDownList ID="ddlClass" runat="server"
                                         CssClass="form-select form-select-lg">
                                         <asp:ListItem Text="Select Grade" Value="" />
+                                        <asp:ListItem Text="Grade 6" />
+                                        <asp:ListItem Text="Grade 7" />
                                         <asp:ListItem Text="Grade 8" />
                                         <asp:ListItem Text="Grade 9" />
                                         <asp:ListItem Text="Grade 10" />
@@ -123,9 +125,7 @@
                                         <asp:ListItem Text="ICSE" />
                                         <asp:ListItem Text="IB" />
                                         <asp:ListItem Text="Cambridge" />
-                                        <asp:ListItem Text="IGCSE" />
-                                        <asp:ListItem Text="AP" />
-                                        <asp:ListItem Text="A-Level" />
+                                     
                                         <asp:ListItem Text="Other" />
                                     </asp:DropDownList>
                                 </div>
